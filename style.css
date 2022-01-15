@@ -1,0 +1,113 @@
+:root{
+    --mainColor: #E6E6FA;
+    --secondaryColor: #F5FFFA;
+    --ascentColor: #FF1493;
+}
+
+body{
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 300;
+}
+.nav-link.active.about {
+    color: rgb(54, 54, 253) !important;
+    font-weight: 700;
+}
+
+.color-ascent{
+    color: var(--ascentColor);
+}
+
+#hero{
+    min-height:100vh;
+    
+}
+
+
+#hero h3{
+    font-size: 2.1rem;
+}
+
+#hero h2{
+    font-weight: 300;
+}
+
+#hero p{
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.navbar-brand{
+    font-size: 1.2rem;
+    color: var(--ascentColor) !important;
+    
+}
+
+.navbar-nav a:hover{
+    border-bottom: 1px solid rgb(4, 69, 122);    
+}
+
+
+.btn-primary:hover{
+    background-color: var(--ascentColor);
+    box-shadow: grey 3px;
+    border: solid rgb(54, 53, 53) 1px;
+}
+
+#about{
+    min-height: 300px;
+    width: 100%;
+    background-color: rgb(4, 29, 53);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+#skill{
+    min-height: 600px;
+    width: 100%;
+    color: #E6E6FA; 
+    background-color: var(--mainColor);
+    
+}
+
+#skill img{
+    width: 12%;
+    margin: 10px;
+}
+
+#skill .card {
+    background-color: rgb(4, 29, 53);
+    height: 270px;
+    width: 240px;
+    
+
+}
+
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+
+#contact{
+    background-color:rgb(4, 29, 53) ;
+    padding-top: 34px;
+}
+
+svg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #E6E6FA;
+}
+
+lead{
+    margin-left: 10px;
+    color: #E6E6FA;
+}
+
+.footer p{
+    color: #999898;
+}
